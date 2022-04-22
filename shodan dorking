@@ -1,6 +1,18 @@
+ssl.cert.subject.cn:*.seek.com.au
 "target.com" "content-type: application/json"
 "hostname:"targetname.com"
 "content-type: application/json"
 "content-type: application/xml"
 "200 OK"
 "wp-json"
+asn:AS63086
+org:"Uber Technologies Inc"
+hostname:example.com
+ ip:"1.1.1.1"
+ net: 5.136. 0.0/13 
+ http.component:wordpress org:expmle.com  port:80,443
+  product:apache version:2.4.49
+ The scenario described that every possible vulnerable device contains the code shown above , and this thing is
+located inside the html source of the page. We can use http.html filter to match the code above and sort similar
+ip/host. And we are gonna filter the organization to find only Sony's assets. For this we are gonna use an org filter.
+Full query will be [ http.html:"/+CSCOE+/logon.html" org:"Sony Biz Networks Corporation" ]
