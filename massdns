@@ -11,3 +11,8 @@ sed -e 's/$/.seek.com.au/' -i 2m-subdomains.txt
 
 amass enum -active -brute -d 
 ./amass  enum -active -brute  -config config  -d " yandex.ru ,yandex.com,yandex.com.tr,yandex.kz ,yandex.ua,yandex.st, yandex.net,ya.ru ,yandex-bank.ne"
+   
+   
+   
+   
+   ssh root@139.162.55.131
