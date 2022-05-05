@@ -1,3 +1,10 @@
+curl -s https://crt.sh\?O\=\%.yandex\&output\=json | jq -r '.[].name_value' | sed 's/\*\.//g' | sort -u (Find company *trade name* used on certificate )
+resultusein -shodan
+ssl:"Yandex LLC" 401
+
+
+
+
 ssl.cert.subject.cn:*.seek.com.au
 "target.com" "content-type: application/json"
 "hostname:"targetname.com"
