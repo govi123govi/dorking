@@ -2,7 +2,7 @@ curl -s https://crt.sh\?O\=\%.yandex\&output\=json | jq -r '.[].name_value' | se
 resultusein -shodan
 ssl:"Yandex LLC" 401
 
-
+For Originate IP address which I found from https://search.censys.io/
 
 
 ssl.cert.subject.cn:*.seek.com.au
