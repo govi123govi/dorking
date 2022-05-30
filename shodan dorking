@@ -23,3 +23,5 @@ hostname:example.com
 located inside the html source of the page. We can use http.html filter to match the code above and sort similar
 ip/host. And we are gonna filter the organization to find only Sony's assets. For this we are gonna use an org filter.
 Full query will be [ http.html:"/+CSCOE+/logon.html" org:"Sony Biz Networks Corporation" ]
+
+https://github.com/vinnyvinoth/My-Shodan-Scripts
